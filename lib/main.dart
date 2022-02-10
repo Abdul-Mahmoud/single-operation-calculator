@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Lab Three Part B | Abdul Mahmoud'),
+      home: const MyHomePage(title: 'Single Operation Calculator'),
       debugShowCheckedModeBanner: false,
     );
   }
@@ -194,12 +194,12 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Expanded(
                 child: Padding(
-                  padding: EdgeInsets.all(5),
+                  padding: const EdgeInsets.all(5),
                   child: Center(
                     child: Text(
                       equation,
                       textAlign: TextAlign.center,
-                      style: TextStyle(fontSize: 27),
+                      style: const TextStyle(fontSize: 27),
                     ),
                   ),
                 ),
@@ -367,10 +367,10 @@ class _MyHomePageState extends State<MyHomePage> {
              Row(
               children: <Widget>[
 
-                Padding(
-                  padding: const EdgeInsets.all(3),
-                  child: SizedBox(
-                    width: 82,
+                Expanded(
+                  flex: 25,
+                  child: Padding(
+                    padding: const EdgeInsets.all(3),
                     child: ElevatedButton(
                       onPressed: () => setText('0'),
                       child: const Text("0"),
@@ -380,6 +380,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 
                 Expanded(
+                  flex: 75,
                   child: Padding(
                     padding: const EdgeInsets.all(3),
                     child: ElevatedButton(

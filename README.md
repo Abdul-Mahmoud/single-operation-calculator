@@ -22,6 +22,7 @@ Once you have calcuated one equation, the equation will reset and you may begin 
 ![image](https://user-images.githubusercontent.com/46537861/153376543-0423b800-5c72-4514-86d2-26e051877f91.png)
 ![image](https://user-images.githubusercontent.com/46537861/153376219-21ce5bef-6c3b-4d48-b5b0-f5bd2a15d2f6.png)
 <!-- ![image](https://user-images.githubusercontent.com/46537861/153376266-e2dbb36d-a097-4309-b2d2-f416e885e9e3.png) -->
+![image](https://user-images.githubusercontent.com/46537861/153377600-c0f69fcb-da2c-44b6-901d-887ad0837743.png)
 ![image](https://user-images.githubusercontent.com/46537861/153376156-66f97988-f3ee-49f5-a3c1-f5028dd056bb.png)
-![image](https://user-images.githubusercontent.com/46537861/153376610-de150a30-b781-4018-9917-e559ae7cca80.png)
+
 
